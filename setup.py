@@ -6,7 +6,7 @@ test_requires = requires
 
 setup(
     name='oscheck',
-    version='0.1',
+    version='0.2',
     packages=find_packages(),
     # url='https://github.com/a1fred/git-barry',
     license='MIT',
