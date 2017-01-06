@@ -8,7 +8,7 @@ OS_WINDOWS = 3
 OS_JAVA = 4
 
 
-def family() -> int:
+def family():
     system_family = platform.system()
     if system_family == 'Linux':
         return OS_LINUX
