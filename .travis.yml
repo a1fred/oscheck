@@ -14,7 +14,7 @@ cache:
 install: pip install tox-travis coveralls coverage flake8
 script:
   - flake8 .
-  - coverage run --source oscheck runtests.py
+  - coverage run --source oscheck setup.py test
 
 after_success:
   - coverage report
